@@ -1,0 +1,158 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+@font-face {
+    font-family: alk;
+    src: url(alk_life.otf)
+}
+
+@font-face {
+    font-family: dejavu;
+    src: url(bpg_dejavu_sans.ttf);
+}
+
+.flex{
+    display: flex;
+    background-color: #D9D9D9;
+height: 200px;
+align-items: right;
+width: 1440px;
+}
+
+ul, li{
+    list-style-type: none;
+    display: inline;
+    font-size: 24px;
+    font-family: alk;
+    color:#717276;
+}
+
+.logo {
+    padding: 130px;
+    padding-top: 50px;
+}
+
+.navi {
+    display: flex;
+    margin: auto;
+/* width: 715px ; */
+}
+
+.spacebetw{
+    margin-right: 38px;
+
+}
+
+
+
+.navi a{
+    text-decoration: none;
+}
+
+.activelink {
+    color: #A62B28;
+}
+
+.womenimg {
+margin-left: 130px;
+margin-top: 160px;
+}
+
+
+header, section {
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+    margin-top: 160px;
+}
+
+header h1{
+    font-family: dejavu;
+    font-size: 32px;
+    font-weight: 700;
+    color:#717276;
+    margin-left: 40px;
+}
+
+main{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 40px;
+
+}
+
+.middlebook {
+margin-left: 20px;
+margin-right: 20px;
+}
+
+figcaption {
+    font-family: dejavu;
+    color: #717276;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.pcaption {
+    font-family: alk;
+    font-size: 24px;
+    color:#000000;
+    font-weight: 400;
+    margin-top: 8px;
+
+}
+
+.price {
+    font-family: dejavu;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 8px;
+}
+
+
+section {
+    display: flex;
+
+}
+
+footer {
+    height: 248px;
+    width: 1440px;
+    background-color:#D9D9D9;
+    align-items: center;
+    display: flex;
+    margin-top: 160px;
+    
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+
+footer nav {
+    padding-left: 130px;
+}
+
+
+footer ul li {
+    display: block;
+    line-height: 29.53px;
+}
+
+footer div{
+    margin-left: 823px;
+}
+
+.instamarg {
+    margin-right: 21px;
+}
+
+.shops{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
