@@ -61,13 +61,20 @@ margin-top: 160px;
 }
 
 
-header, section {
+header {
     display: flex;
     align-items: center;
     margin-left: 130px;
     margin-top: 160px;
 }
+section{
+display: flex;
+    align-items: center;
+    margin-left: 130px;
+margin-top: 40px;
 
+
+}
 header h1{
     font-family: dejavu;
     font-size: 32px;
